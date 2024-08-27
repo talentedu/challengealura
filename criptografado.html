@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto Criptografado</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./assets/Logo.png" alt="Logo Alura">
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo">Seu texto criptografado está pronto</h1>
+                <textarea id="outputText" readonly></textarea>
+                <div class="apresentacao__links">
+                    <button class="apresentacao__links__link" onclick="copiarTexto()">Copiar</button>
+                </div>
+                <h1 class="apresentacao__conteudo__titulo">Reverta um texto criptografado</h1>
+                <textarea id="inputText" placeholder="..."></textarea>
+                <div>
+                    <button class="apresentacao__links__link" onclick="descriptografarTexto()"> Descriptografar</button>
+                </div>
+        </section>
+         <section>
+                <img src="./assets/Menina.png" alt="Desenho de uma garota">
+                <h1 class="apresentacao__conteudo__titulo">Agora seu segredo está guardado a sete chaves!</h1>            
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Isabella.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
